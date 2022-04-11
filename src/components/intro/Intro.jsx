@@ -1,7 +1,7 @@
+/* eslint-disable no-undef */
 import "./intro.css";
-import Me from "../../img/me.png";
 
-const Intro = () => {
+function Intro() {
   return (
     <div className="i">
       <div className="i-left">
@@ -39,16 +39,14 @@ const Intro = () => {
               stroke-width="3"
               stroke-miterlimit="10"
               stroke-linecap="round"
-              stroke-linejoin="round"
-            />
+              stroke-linejoin="round" />
             <path
               id="Vector_2"
               d="M28.5 24L34.5 30L40.5 24"
               stroke-width="3"
               stroke-miterlimit="10"
               stroke-linecap="round"
-              stroke-linejoin="round"
-            />
+              stroke-linejoin="round" />
             <g id="Group">
               <path
                 id="Vector_3"
@@ -56,8 +54,7 @@ const Intro = () => {
                 stroke-width="3"
                 stroke-miterlimit="10"
                 stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+                stroke-linejoin="round" />
             </g>
             <path
               id="Vector_4"
@@ -65,8 +62,7 @@ const Intro = () => {
               stroke-width="2.9895"
               stroke-miterlimit="10"
               stroke-linecap="round"
-              stroke-linejoin="round"
-            />
+              stroke-linejoin="round" />
             <g id="Group_2">
               <path
                 id="Vector_5"
@@ -74,8 +70,7 @@ const Intro = () => {
                 stroke-width="3"
                 stroke-miterlimit="10"
                 stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+                stroke-linejoin="round" />
             </g>
           </g>
         </svg>
@@ -86,6 +81,6 @@ const Intro = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Intro;
